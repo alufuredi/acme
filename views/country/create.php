@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Country2 */
+/* @var $model app\models\Country */
 
-$this->title = 'Create Country2';
-$this->params['breadcrumbs'][] = ['label' => 'Country2s', 'url' => ['index']];
+$this->title = Yii::t('app', 'Create Country');
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Countries'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="country2-create">
+<div class="country-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
